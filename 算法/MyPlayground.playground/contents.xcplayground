@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='5.0' target-platform='ios'>
-    <timeline fileName='timeline.xctimeline'/>
+<playground version='6.0' target-platform='ios' display-mode='raw'>
+    <pages>
+        <page name='markdown'/>
+        <page name='基本语法与技巧'/>
+        <page name='最基本的数据结构'/>
+        <page name='2sum'/>
+        <page name=' reverse_word'/>
+        <page name='list'/>
+        <page name='simplifyPath'/>
+        <page name='binTree'/>
+        <page name='MeetingTime'/>
+    </pages>
 </playground>
