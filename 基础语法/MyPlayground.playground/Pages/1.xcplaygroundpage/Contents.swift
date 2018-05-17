@@ -61,7 +61,7 @@ var optionalInteger2: Optional<Int>
 var myString:String? = nil
 
 if myString != nil {
-    print(myString)
+    print(myString!)
 }else{
     print("字符串为 nil")
 }

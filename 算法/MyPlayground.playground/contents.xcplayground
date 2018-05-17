@@ -10,5 +10,6 @@
         <page name='simplifyPath'/>
         <page name='binTree'/>
         <page name='MeetingTime'/>
+        <page name='BubbledSort'/>
     </pages>
 </playground>

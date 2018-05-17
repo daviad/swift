@@ -33,7 +33,7 @@ import XCPlayground
 */
 
 
-// 链接：https://www.jianshu.com/p/ee16bcf50a59
+//: 链接：https://www.jianshu.com/p/ee16bcf50a59
 
 //我们可以使用泛型编程，并配合Tuple，在配合上断言，就写出了灵活度很高的交换方法。代码如下：
 
