@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+//http://www.cocoachina.com/programmer/20180514/23366.html
 class Josephus: NSObject {
     let data = [1,2,3,4,5,6,7,8,9];
     let m = 3
