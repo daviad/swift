@@ -11,7 +11,7 @@ import UIKit
 
 class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
     
-    var dataArr = ["Josephus"]
+    var dataArr = ["Josephus","QuickSort","QueryMinABS"]
     
     let  cellIdentifier  = "cell"
 
@@ -42,8 +42,14 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     }
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let jose = Josephus()
-        jose
+//        let jose = Josephus()
+//        jose
+        
+//        let sort = QuickSortTest()
+//        sort.test()
+        
+        let query = QueryMinABS()
+        query.test()
         
     }
 

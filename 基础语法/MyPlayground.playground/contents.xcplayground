@@ -5,5 +5,6 @@
         <page name='1'/>
         <page name='typlealias_generic_interface'/>
         <page name='Generators 与 Sequences 浅析'/>
+        <page name='optional_test'/>
     </pages>
 </playground>

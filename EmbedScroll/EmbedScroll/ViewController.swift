@@ -14,6 +14,8 @@ class ViewController: UIViewController, UIScrollViewDelegate,UITableViewDelegate
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+//         class_getInstanceMethod
         // Do any additional setup after loading the view, typically from a nib.
         outerScroll = UITableView(frame: CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: self.view.frame.size.height))
         outerScroll.backgroundColor = UIColor.red

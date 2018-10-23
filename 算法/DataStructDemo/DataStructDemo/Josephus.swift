@@ -12,9 +12,9 @@ class Josephus: NSObject {
     let data = [1,2,3,4,5,6,7,8,9];
     let m = 3
     func commonMethod() {
-        data.forEach { (<#Int#>) in
-            <#code#>
-        }
+//        data.forEach { (<#Int#>) in
+//            <#code#>
+//        }
     }
     
     func mathMethod() {

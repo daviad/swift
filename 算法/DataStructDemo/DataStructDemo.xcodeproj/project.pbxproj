@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B90FAFBF216EE3DD00A37A76 /* QueryMinABS.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90FAFBE216EE3DD00A37A76 /* QueryMinABS.swift */; };
+		B98AF12B20B7D5EC00E43E7C /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98AF12A20B7D5EC00E43E7C /* QuickSort.swift */; };
+		B9AEEBFD20BBFC52009B9736 /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AEEBFC20BBFC52009B9736 /* MergeSort.swift */; };
 		E462149920B192A100C0075B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E462149820B192A100C0075B /* AppDelegate.swift */; };
 		E462149B20B192A100C0075B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E462149A20B192A100C0075B /* ViewController.swift */; };
 		E462149E20B192A100C0075B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E462149C20B192A100C0075B /* Main.storyboard */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B90FAFBE216EE3DD00A37A76 /* QueryMinABS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryMinABS.swift; sourceTree = "<group>"; };
+		B98AF12A20B7D5EC00E43E7C /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
+		B9AEEBFC20BBFC52009B9736 /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
 		E462149520B192A100C0075B /* DataStructDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataStructDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E462149820B192A100C0075B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E462149A20B192A100C0075B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +69,9 @@
 				E46214A120B192BE00C0075B /* LaunchScreen.storyboard */,
 				E46214A420B192BE00C0075B /* Info.plist */,
 				E46214AA20B194F300C0075B /* Josephus.swift */,
+				B98AF12A20B7D5EC00E43E7C /* QuickSort.swift */,
+				B9AEEBFC20BBFC52009B9736 /* MergeSort.swift */,
+				B90FAFBE216EE3DD00A37A76 /* QueryMinABS.swift */,
 			);
 			path = DataStructDemo;
 			sourceTree = "<group>";
@@ -141,6 +150,9 @@
 				E462149B20B192A100C0075B /* ViewController.swift in Sources */,
 				E462149920B192A100C0075B /* AppDelegate.swift in Sources */,
 				E46214AB20B194F300C0075B /* Josephus.swift in Sources */,
+				B98AF12B20B7D5EC00E43E7C /* QuickSort.swift in Sources */,
+				B90FAFBF216EE3DD00A37A76 /* QueryMinABS.swift in Sources */,
+				B9AEEBFD20BBFC52009B9736 /* MergeSort.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

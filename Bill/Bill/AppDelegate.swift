@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Grammar
+//  Bill
 //
-//  Created by  dingxiuwei on 2018/5/11.
+//  Created by  dingxiuwei on 2018/10/23.
 //  Copyright © 2018年  dingxiuwei. All rights reserved.
 //
 
@@ -14,12 +14,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        
-        let overlayClass = NSClassFromString("UIDebuggingInformationOverlay") as? UIWindow.Type
-        _ = overlayClass?.perform(NSSelectorFromString("prepareDebuggingOverlay"))
-        
+        window = UIWindow.init(frame: UIScreen.main.bounds)
+        window?.backgroundColor = UIColor.white
+        window?.makeKeyAndVisible()
+        let navigationController = UINavigationController.init(rootViewController: ViewController.init())
+        window?.rootViewController = navigationController
         return true
     }
 
